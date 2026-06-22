@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulhafiz Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>
+<div id="welcomepage">
+    <img src="image.jpg/undraw_developer-activity_4zqd (1).svg" alt="cobding image" >
+    <h1> welcome to my portfolio</h1>
+    <input type="text" id="myText">
+    <button id="mySubmit">Submit</button>
+</div>
+<div id="portfolio">
+    <h1 id="greeting"></h1>
+    <h2>About me</h2>
+    <div class="nav-buttons">
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('projects')">Projects</button>
+</div>
+<div id="about-section">
+    <h2>About me</h2>
+    <P>
+        My name is Lawal Abdulhafiz i'm learning full stack web development
+    </P>
+</div>
+<div id="skills-section">
+    <h2>Skills</h2>
+    <Ul>
+        <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50">
+           <span class="html-text">HTML</span>
+        </li>
+
+        <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50">
+            <span class="css-text">CSS</span>
+        </li>
+        <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50">
+            <span class="js-text">JAVASCRIPT</span>
+        </li>
+    </Ul>
+</div>
+<div id="projects-section">
+    <h2>Projects</h2>
+    <div class="projects">
+        A contact information page displaying email Built with HTML and CSS to practice structure personal information
+    <button id="backBtn">Back</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

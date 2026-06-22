@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#portfolio{
+    display: none;
+    background-color: #fff4cc;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+#portfolio ul {
+    list-style: none;
+    padding: 0;
+}
+
+#portfolio li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.html-text {
+    color: #e34c26;
+    font-weight: bold;
+}
+
+.css-text {
+    color: #2965f1;
+    font-weight: bold;
+}
+
+.js-text {
+    color: #d4ac0d;
+    font-weight: bold;
+}
+input{
+    padding: 10px;
+}
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+img{
+    width: 350px;
+    height: auto;
+}
+button{
+    background-color: lightblue;
+    color: whitesmoke;
+}
+
