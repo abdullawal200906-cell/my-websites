@@ -56,4 +56,6 @@ button{
     background-color: lightblue;
     color: whitesmoke;
 }
-
+#about-section, #skills-section, #projects-section, #contact-section {
+    display: none;
+}
